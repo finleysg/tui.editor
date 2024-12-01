@@ -3,9 +3,6 @@
  * Based on https://github.com/nhn/tui.editor/blob/master/apps/react-editor/src/editor.tsx
  * Courtesy of Noe Casas: https://github.com/nhn/tui.editor/issues/2798#issuecomment-1756114494
  */
-
-import '@toast-ui/editor/dist/toastui-editor.css';
-
 import React, { useEffect, useRef } from 'react';
 
 import ToastuiEditor, { EditorOptions, EventMap } from '@toast-ui/editor';
